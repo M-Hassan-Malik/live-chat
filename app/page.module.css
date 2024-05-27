@@ -1,0 +1,89 @@
+/* page.module.css */
+
+
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4a90e2;
+  color: white;
+}
+
+.join h1 {
+  margin-bottom: 20px;
+}
+
+.join input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.join button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #4a90e2;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.join button:hover {
+  background-color: #e3e3e3;
+}
+
+.chatRoom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.chatRoom h1 {
+  margin-bottom: 20px;
+}
+
+.chatRoom h6 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.chatRoom div {
+  background-color: #fff;
+  color: #357ABD;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chatRoom input {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.chatRoom button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chatRoom button:hover {
+  background-color: #357ABD;
+}
