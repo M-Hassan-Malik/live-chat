@@ -24,7 +24,7 @@ This is a simple real-time chat application built with Next.js, Express, and Soc
 - Node.js (>= v18.17.0)
 - npm
 
-### Installation
+### How To Use
 
 1. Clone the repository:
 
@@ -39,7 +39,7 @@ cd live-chat
 npm install
 ```
 
-2. Start Chatting
+3. Start Chatting
 
 ```sh
 npm run dev
